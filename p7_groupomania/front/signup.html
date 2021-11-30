@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Groupomania</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation" id="nav">
+        <img src="image/logo_blanc.png" alt="">
+
+        <ul >
+          <li>
+            <a href="index.html">Accueil</a>
+          </li>
+        </ul>
+      </nav>
+    </header>  <!-- Navigation -->
+    
+    <main>
+      <div class="pop_valid">
+        <div id="message_valid">
+          
+        </div>
+      </div>  
+
+      <form id='form' enctype="multipart/form-data" >
+
+          <h3>Inscription</h3>
+
+
+          <label>Pseudo</label>
+          <input type="text" name="username" id="user_sign" aria-label="pseudo" placeholder="Pseudo" />
+          <p class="message"></p>
+
+
+          <label>Adresse mail</label>
+          <input type="email" name="email" id="mail_sign" aria-label="email" placeholder="adresse email"/>
+          <p class="message"></p>
+
+          <label>Mot de passe</label>
+          <input type="password" name="password" id="password_sign" aria-label="password" placeholder="mot de passe"/>
+          <p class="message"></p>
+
+        <button id="sign_btn">S'INSCRIRE</button>
+
+        <p>
+            Déja inscrit 
+            <a href="login.html">connectez-vous</a>
+        </p>
+    </form>
+    <div id="modal_container">
+
+    </div>
+
+
+    </main>
+
+  </body>
+  <script src="./js/signup.js"></script>
+</html>

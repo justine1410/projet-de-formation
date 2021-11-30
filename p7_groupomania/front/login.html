@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Groupomania</title>
+  </head>
+  <body>
+      <header>
+        <nav class="navigation">
+          <img src="image/logo_blanc.png" alt="">
+          <ul >
+            <li>
+              <a href="index.html">Accueil</a>
+            </li>
+            
+          </ul>
+        </nav>
+      </header>
+      <main>
+
+        <form id="form">
+
+          <h3>Connexion</h3>
+              <label>Pseudo</label>
+              <input type="text"  id="user_login" aria-label="pseudo" placeholder="Pseudo" />
+
+              <label>Mot de passe</label>
+              <input type="password" id="password_login" aria-label="password" placeholder="mot de passe" />
+
+          <button type="submit" id="login-btn" >SE CONNECTER</button>
+
+          <p >
+              Mot de passe oublié? 
+              <a href="forgotPassword.html">Cliquez-ici !</a>
+          </p>
+
+      </form>
+
+      <div id="modal_container">
+      </div>
+
+
+      </main>
+  </body>
+  <script src="./js/login.js"></script>
+
+</html>

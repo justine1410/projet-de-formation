@@ -1,0 +1,96 @@
+
+ 
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    .logo{
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        perspective: 1200px;
+        perspective-origin: 50% 50%;
+        .logo_groupomania {
+            margin: 0;
+            display: flex;
+            top:100px;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            position: relative;
+            background:url("https://imagizer.imageshack.com/img924/4972/hZkyjQ.jpg");
+            background-size: auto 100%;
+            animation: move-map 20s infinite linear;
+        }
+        .logo_groupomania .shadow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform: rotateX(90deg) translateZ(-150px);
+            background: radial-gradient(circle at 50% 50%, rgba(253, 45, 1, 0.4), rgba(253, 45, 1, 0.1) 40%, rgba(253, 45, 1, 0) 50%);
+            z-index: -1;
+        }
+        
+        .logo_groupomania:before {
+            content: "";
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            box-shadow: -40px 10px 70px 10px rgba(0,0,0,0.5) inset;
+            z-index: 2;
+        }
+        
+    }
+    @keyframes move-map {
+        0% { background-position: -849px 0; }
+      
+        100% { background-position: 0 0; } 
+    }
+
+    h1{
+        font-size:50px;
+        margin-top:200px;
+        color: #b1412a
+    }
+    
+;}
+
+/*****style mobile*****/
+
+@media screen and (min-width:320px) and (max-width:750px){
+  main{
+      top: 120px;
+      h1{
+       font-size:40px;
+       margin-top: 100px;
+      }
+
+      .logo .logo_groupomania{
+          top: 50px;
+      }
+   }
+}
+
+/*****style tablette*****/
+@media screen and (min-width:750px) and (max-width:1100px){ 
+ 
+
+}
+
+
+ 
+  
+  
+  
+ 
+
+  
+  
+  

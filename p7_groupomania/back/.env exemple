@@ -1,0 +1,6 @@
+//signature token
+token = "your key"
+
+//base de donnée mysql
+USERDB = 'your username'
+HOST = 'your host'
