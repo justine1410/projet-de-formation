@@ -1,0 +1,22 @@
+{
+  "name": "justine_fidel_p_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justine1410/justine_fidel_p_5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justine1410/justine_fidel_p_5/issues"
+  },
+  "homepage": "https://github.com/justine1410/justine_fidel_p_5#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}

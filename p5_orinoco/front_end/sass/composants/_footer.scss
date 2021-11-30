@@ -1,0 +1,22 @@
+footer ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $primary;
+    height: 100px;
+    margin : 0;
+    li{
+        list-style: none;
+        a{
+            color:$primary-darken;
+            
+        }
+    }
+}
+@media screen and (min-width:320px) and (max-width:750px){
+    footer ul{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+}

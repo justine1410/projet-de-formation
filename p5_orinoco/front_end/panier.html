@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <title>Orinoco-vente d'ours en peluche</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="public/css/style.css">
+  </head>
+  <body>
+    <header>
+        <div class="header-top">
+            <img src="images/logo.png" alt="logo de orinoco"/>
+            <div class="link">
+                <a href="index.html">Acceuil</a>
+                <a href="panier.html">Panier</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="panier">
+        </div>
+        <div class="total">
+            <p >Total : </p>
+            <p id="total">0€</p>
+        </div>
+        
+        <div id="formulaire" > 
+            <h3>Pour finaliser votre commande, merci d'indiquer vos coordonnées :</h3>
+            <form id="form">  
+                <label for="firstName"  >Prénom :</label>
+                <input type="text"  name="firstName" placeholder="corinne" class="form-control" id="firstName" >
+                <p class="message"></p><br/>
+
+                <label for="lastName" >Nom :</label>
+                <input type="text" name="lastName"  placeholder="dupont" class="form-control" id="lastName">
+                <p class="message"></p><br/>
+
+                <label for="adress">Adresse :</label>
+                <input type="text" name="adress"  placeholder="5 rue des oiseaux"  class="form-control" id="adress">
+                <p class="message"></p><br/>
+
+                <label for="city" >Ville :</label>
+                <input type="text" name="ville"  placeholder="toulon" class="form-control" id="city">
+                <p class="message"></p><br/>
+
+                <label for="email"  >Email :</label>
+                <input type="text" name="email" placeholder="ju11@live.Fr" class="form-control" id="email">
+                <p class="message"></p><br/>
+
+                <div class="valid">
+                    <p class="valid">
+                        <button type="submit" >Validez votre commande</button>
+                    </p>
+                </div>  
+            </form>
+        </div>
+         
+      </main>
+      <footer>
+        <ul>
+            <li>
+                <a href="">A propos</a>
+            </li>
+            <li> .</li>
+            <li>
+                <a href="">Condition d'utilisation</a>
+            </li>
+            <li> .</li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/panier.js"></script>
+</body>
+</html>
+  
+  
