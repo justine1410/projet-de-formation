@@ -1,0 +1,891 @@
+body{
+    margin:0;
+    padding:0;
+}
+#bloc_page
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    max-width: 1439px;
+    margin: auto;
+}
+
+#bloc_page .bleu
+{
+    color:#0065fc;
+}
+#bloc_page .vide
+{
+    color: #f2f2f2;
+}
+h2
+{
+    font-size: 16px;
+}
+
+                    /*****HEADER*****/
+header img
+{
+    width: 92px;
+    height: 45px;
+    margin-top:20px
+}
+.inscrire
+{
+    display:flex;
+    margin-left:15px;
+}
+.inscrire a{
+    color: #0065fc;
+}
+.ancre 
+{
+    display: flex;
+}
+.ancre a
+{
+    color: black;
+    margin-left:15px;
+    padding-top:50px
+}
+.menu
+{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:50px;
+}
+header a{
+    display: flex;
+    text-decoration: none;
+    align-items: flex-end;
+    justify-content: center;
+}
+.ancre a:hover
+{
+    border-top: solid #0065fc;
+    color: #0065fc;
+    padding-top: 40px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:40px;
+}
+
+
+                    /*****SECTION CHOIX*****/
+#choix
+{
+   
+    margin-top: 40px;
+}
+h1 {
+    margin-bottom:-10px;
+}
+.bouton
+{
+    background-color: #0065fc;
+    color: white;
+    width: 135px;
+    border:#0065fc;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bold;
+}
+.fa-search
+{
+    background-color: #0065fc;
+    color:white;
+    border-radius:20px;
+    padding: 17px 18px 13px 18px;
+    visibility: hidden;
+}
+
+.fa-map-marker-alt
+{   background: #f2f2f2;
+    padding:17px 20px 15px 20px;
+    font-size: 17px; 
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.ville
+{
+    border: solid  #f2f2f2;
+    border-width: thin;
+    font-weight: bold;
+    padding-left: 20px; 
+}
+.input_container
+{
+    display: flex;
+    height: 50px;
+    margin-top: 19px;  
+}
+.filtres a
+{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    border: solid #f2f2f2;
+    border-radius:30px;
+    width: 110%;
+   
+}
+.filtres h4
+{
+    margin: 15px 10px 15px 10px; 
+}
+.fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
+{
+    color:#0065fc;
+    background-color:#deebff;
+    border-radius: 50%;
+    float: left;
+    height: 20px;
+    padding: 17px 18px 13px 18px;
+}
+.filtres ul
+{
+    list-style-type: none;
+    display: flex;
+    width: 70%;
+    padding-left:0;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+.filtres a:hover
+{
+    color:#0065fc;
+}
+.filtres a{
+    color:black;
+}
+#choix .filtres
+{
+    display: flex;
+    align-items: center;
+    width:100%
+}
+#choix
+{
+    display:flex;
+    flex-direction: column;
+}
+.fa-info
+{
+    color:#0065fc;
+    height: 12px;
+    border-radius: 50%;
+    border: solid #f2f2f2;
+    background-color: white;
+    padding: 5px 8px 5px 8px;
+    margin-right: 5px;
+}
+.info
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+                    /****HEBERGEMENT*****/
+.hotel {
+    display: flex;
+    flex-direction: column;
+    border: solid #f2f2f2;
+    border-radius: 20px;
+    line-height: 0.1em;
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    box-shadow: -1px 5px 15px -3px #e3e3e3;
+}
+.hotel a figcaption{
+    margin-left:15px;
+}
+.hotel a figure{
+    margin:0;
+}
+.hotel a figure img
+{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding:3px;
+    width: 97%;
+    height: 115px;
+    object-fit: cover;
+}
+.hebergements
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    margin-top:20px;
+    background-color: #f2f2f2;
+}
+#bloc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2; 
+    width: 65%;
+    border-radius: 20px;
+    padding:25px;
+}
+#bloc a
+{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    
+}
+#bloc a:hover
+{
+    color:#0065fc;
+}
+                    /*****SECTION POPULAIRE*****/
+.fa-chart-line
+{
+    margin-left: 80px;
+}
+.pop h3
+{
+    margin-bottom: -10px;
+}
+.pop p{
+    margin-bottom:30%;
+}
+#pop .haut
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%
+}
+.populaire{
+    margin-top:20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.pop
+{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    font-style: normal;
+    margin-left: -30px;
+}
+.populaire .star{
+    margin-top:-30px;
+}
+.hotel_pop
+{
+    height: 140px;
+    border-radius: 20px;
+    border: solid white;
+    box-shadow: -1px 5px 15px -3px #e3e3e3;
+    margin-bottom:15px; 
+}
+.hotel_pop a figure{
+    margin:0;
+}
+.hotel_pop a figure img
+{
+    width: 40%;
+    height: 134px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: left;
+    margin-right:20px;
+    padding:3px;
+    object-fit: cover; 
+}
+.hotel_pop a
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: flex;
+    border-radius:20px;
+    width: 100%;
+    height: 140px;
+}
+.hotel_pop a:hover
+{
+    color: #0065fc;
+}
+#pop
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    width: 25%;
+    padding:25px;
+}
+#dodo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:64px;
+}
+                    /*****ACTIVITE*****/
+
+.port a,.les_calanques a{
+    display: flex;
+    background-color: white;
+    box-shadow: -1px 5px 15px -3px #e3e3e3;
+    border-radius: 20px;
+    height: 443px;
+    width: 100%;
+  }
+  .port a figure,.les_calanques a figure{
+    margin: 0;  
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .port a figure img,.les_calanques a figure img{
+    width: 100%;  
+    height: 380px;
+    border-radius: 20px 20px 0 0;
+    object-fit: none;
+    
+  }
+  .port a figcaption,.les_calanques a figcaption{
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    padding-left: 5px;
+    border-radius: 0 0 20px 20px;
+  }
+  .port,.les_calanques{
+      width: 23%;
+  }
+.pomegue a{
+    display:flex;
+    background-color: white;
+    box-shadow:-1px 5px 15px -3px #e3e3e3;
+    border-radius:20px;
+    height:230px;
+    width:100%;
+}
+.pomegue a figure{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    height: 100%;
+    width: 100%;
+}
+.pomegue a figure img{
+    width: 100%;
+    height:181px;
+    border-radius:20px 20px 0 0;
+    object-fit:none;
+}
+.pomegue a figcaption{
+    margin:0;
+    height: 60px;
+    width: 100%;
+    padding-left:5px;
+    border-radius:0 0 20px 20px;
+}
+
+.frioul a{
+    display:flex;
+    background-color: white;
+    box-shadow: -1px 5px 15px 3px #e3e3e3 ;
+    border-radius:20px;
+    height:160px;
+    width: 100%;
+}
+.frioul a figure{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    height: 100%;
+    width: 100%;
+}
+.frioul a figure img{
+    width: 100%;
+    height:107px;
+    border-radius: 20px 20px 0 0;
+    object-fit:cover;
+}
+.frioul a figcaption{
+    margin:0;
+    height: 60px;
+    width: 100%;
+    padding-left:5px;
+    border-radius:0 0 20px 20px;
+}
+.pofri{
+    display:flex;
+    flex-direction:column;
+    width: 23%;
+    height: 443px;
+    justify-content: space-between;
+}
+.notre_dame a,.longchamp a{
+    display:flex;
+    background-color: white;
+    box-shadow: -1px 5px 15px 3px #e3e3e3;
+    border-radius:23px;
+    height:195px;
+    width: 100%;
+}
+.notre_dame a figure,.longchamp a figure{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width: 100%;
+}
+.notre_dame a figure img,.longchamp a figure img{
+    width: 100%;
+    height: 140px;
+    border-radius:20px 20px 0 0;
+    object-fit:cover;
+}
+.notre_dame a figcaption,.longchamp a figcaption{
+    margin:0;
+    height: 60px;
+    width: 100%;
+    padding-left:5px;
+    border-radius: 0 0 20px 20px;
+}
+.dalon
+{ 
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    height:443px;
+    justify-content: space-between;
+}
+#choix_activite a
+{
+    text-decoration: none;
+    color:black;
+}
+#choix_activite a:hover
+{
+    color: blue;
+}
+#choix_activite
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+#activites
+{
+    display:flex;
+    flex-direction: column;
+}
+                    /*****FOOTER*****/
+.propos,.nos_hebergement,.assistance
+{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+footer li
+{
+    list-style-type: none;
+    line-height: 23px;
+}
+footer a
+{
+    text-decoration: none;
+    color:black;
+}
+footer 
+{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    background-color: #f2f2f2;
+    margin-top: 58px;
+}
+
+
+
+
+
+                /*****style mobile*****/
+@media screen and (min-width:320px) and (max-width:750px){
+    #bloc_page{
+        width: 100%;
+    }
+                                            /*****HEADER*****/
+    span.inscrire{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left:120px;
+        padding-top:30px;
+    }
+    header img{
+        width: 90px;
+        margin-bottom:-15px;
+        padding-left:20px;
+    }
+    .menu{
+        flex-wrap:wrap-reverse;
+        margin-bottom:-10px
+    }
+    .ancre{
+        
+        margin-bottom:-30px;
+        margin-left: -80px;
+        width: 110%;
+        justify-content:space-between;
+    }
+    .ancre a:hover{
+        border-bottom:solid #0065fc;
+        padding-bottom:20px;
+        border-top:none;
+    }
+
+                                            /*****SECTION CHOIX*****/
+    .intro{
+        width: 70%;
+        padding-left: 50px;
+        margin-top:20px;
+    }
+    #choix{
+        width: 100%;
+        margin-top:65px;
+        border-top: solid #f2f2f2;
+     }
+     .input_container{
+        width:100%;
+        justify-content: center;
+        margin:0;
+    }
+    .filtres ul li:first-child{
+        order:1;
+    }
+    .filtres ul li:nth-child(3){
+        order:2;
+        margin:5px;
+    }
+    .filtres ul li:nth-child(4){
+        order:3;
+    }
+    .filtres ul li:nth-child(2){
+        order:4;
+        margin-left:-15px;
+    }
+    .filtres a{
+        width:100%
+    }
+    .filtres ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: baseline;
+        height:200px;
+        width: 95%;
+        justify-content: flex-start;
+    }
+   .filtres h4{
+       margin:15px 0 15px 3px;
+   }
+    #choix .filtres{
+        flex-direction:column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding-left: 5px;
+        width: 90%;
+    }
+    .info{
+        width: 75%;
+        align-items: baseline;
+        margin-bottom: 10px;
+        margin-top:10px;
+        margin-left:10px;
+    }
+    .fa-search{
+        visibility: visible;
+        margin:0;
+    }
+    .bouton{
+        display:none;
+    }
+
+                                            /*****HEBERGEMENT*****/
+    #dodo{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        margin-bottom:30px;
+    }
+    #pop h2{
+        margin-right:20px;
+    }
+    #pop .haut{
+        margin-bottom:-30px;
+    }
+    #pop{
+        width: 100%;
+        padding:10px;
+        border-radius:0;
+        margin: 0;
+        padding:0;
+    }
+    .hotel_pop a figure img{
+        margin-right:0;
+    }
+    .pop .star{
+        margin-top:auto;
+    }
+    .pop{
+        height: 115px;
+    }
+    .pop p{
+        margin-bottom:0;
+    }
+    .hotel_pop{
+        height: 140px;
+        margin:15px;  
+    }
+    .hotel_pop a figcaption{
+        height: 115px;
+
+    }
+    .hotel{
+        width: 95%;
+        height:197px;
+    }
+    .hebergements{
+        flex-direction: column;
+        height:1250px;
+        background-color: white;
+    }
+    #bloc{
+        width: 95%;
+        height:1330px;
+        justify-content: space-between;
+        margin-top: 20px;
+        background-color: white;
+        margin: 0;
+        padding: 0px;
+    }
+    #bloc h2{
+        margin-bottom:-50px;
+        width: 90%;
+    }
+                                                /*****ACTIVITE*****/
+    .port,.les_calanques,.dalon,.pofri{
+        width: 100%;
+        height: 1600px;
+    }
+    .port{
+        height: 190px;
+    }
+    .les_calanques{
+        margin-top:140px;
+        height:190px;
+    }
+    .pomegue{
+        height: 50%;
+        margin-bottom:20px;
+    }
+    .frioul{
+        height:80px;
+        width: 100%;
+    }
+   .dalon,.pofri{
+       height: 30%;
+       margin-top:20px;
+   }
+    .port a,.les_calanques a,.dalon a,.pofri a{
+        width: 95%;
+        height:190px;
+    }
+    .longchamp{
+        margin-top:20px
+    }
+    #choix_activite img{
+        height:135px ;
+        object-fit: cover;
+    }
+    #choix_activite{
+        flex-direction: column;
+        width: 90%;
+    }
+    #activites h2{
+        width: 90%;
+    }
+    #activites{
+        width: 100%;
+        padding:0;
+        margin:0;
+        align-items: center;
+        justify-content: center;
+    }
+                                            /*****FOOTER*****/
+    .propos,.nos_hebergement,.assistance{
+        width: 60%;
+    }
+    footer ul{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        width: 100%;
+        background-color: #f2f2f2;
+        padding-left:0;
+        
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1100px){ 
+    #bloc_page{
+        width: 95%;
+    } 
+    #choix .filtres{
+        width: 95%;
+        justify-content: space-around;
+    }    
+    .filtres ul{
+        width: 100%;
+    }   
+    .filtres h4{
+        margin:15px 0 15px 0;
+    } 
+    .filtre a{
+        width:98% ;
+    }    
+                                                /*****SECTION HEBERGEMENT*****/
+    #dodo{
+        flex-direction: column-reverse;
+    }
+    .populaire{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    #pop{
+        width: 95%;
+        padding:0;
+        background-color: white;
+    }
+    .pop
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left:0px;
+    }
+    .pop h3{
+        margin-top:0;
+    }
+    .haut{
+        margin-left:-90px;
+    }
+    .hotel_pop{
+        height: 135px;
+        width: 40%;
+    }
+    .hotel_pop img{
+        margin-right:0px;
+    }
+    #bloc{
+        width: 90%;
+        margin-top:10px;
+    }
+                                            /*****ACTIVITE*****/
+    
+    .port a,.les_calanques a{
+        width: 90%;
+        height: 360px;
+    }
+    .port a figure img,.les_calanques a figure img{
+        height: 80%;
+    }
+    .port a figcaption,.les_calanques a figcaption{
+        padding:0;
+    }
+    .pofri{
+        height: 360px;
+    }
+    .pomegue a{
+        height: 150px;
+    }
+    .pomegue a figure img{
+        height:100px
+    }
+    .frioul a{
+        height: 150px;
+    }
+    .frioul a figure img{
+        height: 100px;
+    }
+    .dalon{
+        width: 25%;
+        height: 360px;
+        justify-content: space-between;
+    } 
+    .notre_dame a{
+        width: 100%;
+        height:160px;
+    }
+    .notre_dame{
+        height:50%;
+    }
+    .notre_dame a figure img{
+        height: 95px;
+    }
+    .notre_dame a figcaption,.longchamp a figcaption{
+        padding:0;
+    }
+    .pomegue a figcaption,.frioul a figcaption{
+        padding:0;
+    }
+    .longchamp a{
+        height: 160px;
+    }
+    .longchamp a figure img{
+        height: 100px;
+    }
+
+    #choix_activite{
+        width: 100%;
+        padding-bottom:20px;
+        justify-content: space-around;
+    }
+    #activites{
+        width: 100%;
+        margin-top:-50px;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        
+    }
+                                            /*****FOOTER*****/
+    .propos,.nos_hebergement,.assistance{
+        width: 60%;
+    }
+    footer{
+        width: 100%;
+        background-color: #f2f2f2;
+        margin-top:20px;
+        padding:0;
+    }
+}
