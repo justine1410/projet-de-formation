@@ -1,0 +1,112 @@
+                    /***Page loading***/
+    /***Page d'acceuil ouverture***/
+#bloc_page .acceuil{
+    animation:fixe 6s;
+}
+    /***spinner***/
+.loading{
+    position:absolute;
+    height: 200px;
+    left:25%;
+    top:50%;
+    opacity: 0;
+    animation: loading 6s;
+}
+.loading img{
+    width: 80%;
+    position:relative;
+    right:10%;
+}
+    /***couvert spinner***/
+.loading .I1{
+    @include couvert_load;
+    left:25%;
+    top:40%; 
+    transform: rotate(2turn); 
+    transition: transform 500ms ease-in-out;
+    transition-duration: 4s;
+}
+
+.loading .I2{
+    @include couvert_load;
+    left:85%;
+    bottom:80%;
+    transform: rotate(2turn);
+    transition: transform 500ms ease-in-out;
+    transition-duration: 4s;
+}
+.loading .I3{
+    @include couvert_load;
+    right: 120%;
+    bottom:80%;
+    transform: rotate(2turn);
+    transition: transform 500ms ease-in-out;
+    transition-duration: 4s;
+}
+.loading .I4{
+    @include couvert_load;
+    bottom:120%;
+    left:25%;
+    transform: rotate(2turn);
+    transition: transform 500ms ease-in-out;
+    transition-duration: 4s;
+}
+
+                    /***Animation coeur qui se remplit acceuil***/
+.fa-heart::after{
+    content: "\f004";
+    font-weight:900;
+    position: absolute;
+    left:0;
+    color:$color_primary;
+    transform:scale(0);
+}
+button:hover> i::after{
+    transform: scale(1);
+    transform-origin: bottom;
+    transition: transform 1s;
+}
+button:hover>i{
+    color:white;
+}
+
+                    /***Animation glissade carte***/
+
+ .choice_food1:hover,.choice_food2:hover,.choice_food3:hover,.choice_food4:hover{
+    .icone{
+        background-color: $color-tertiary; 
+        transform-origin: 100%;
+        transition-duration:3s;
+        width: 30%;
+    }
+    .icone:hover{
+        background-color:$color-tree_darken ;
+    }
+    .fa-check-circle{
+        transform:rotate(3turn);
+        transition:2s;  
+    }
+    p{
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    h4{
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+}
+                    /****Animation apparition carte***/
+                            
+.choice_food1{
+    animation:apparition 1s;
+}
+.choice_food2{
+    animation:apparition 3s;
+}
+.choice_food3{
+    animation:apparition 5s;
+}
+

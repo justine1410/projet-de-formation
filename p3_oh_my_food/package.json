@@ -1,0 +1,19 @@
+{
+  "name": "fideljustine_3_20012021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justine1410/FidelJustine_3_20012021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "devDependencies": {
+    "autoprefixer": "^10.2.3"
+  }
+}

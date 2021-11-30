@@ -1,0 +1,57 @@
+
+.header_carte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .fa-arrow-left{
+        padding-left:10px;
+    }
+    .h1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 32px;
+        padding-top:10px;
+        img{
+            width: 50%;
+        }
+    }
+    .logo{
+        display: flex;
+        align-items: baseline;
+    }
+}
+                /***Format destkop***/
+@media screen and (min-width:11000px) and (max-width:1700px){
+    .logo{
+        .fa-arrow-left{
+            font-size:4em;
+            color:black;
+        }
+        h1{
+            font-size:5em;
+            margin:0;
+        }
+    }
+    /***Header carte***/
+    header .photos_resto{
+        margin-top:90px;
+    }
+}
+            /***Format tablette***/
+@media screen and (min-width:750px) and (max-width:1700px){
+    .logo{
+        .fa-arrow-left{
+            font-size:3em;
+            color:black;
+        }
+        h1{
+            font-size:4em;
+            margin:0;
+        }
+    }
+    .header_carte{
+        height: 100px;
+    }
+   
+}

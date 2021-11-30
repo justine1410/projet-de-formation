@@ -1,0 +1,55 @@
+$color_primary :#9356dc;
+$color_primary_light:lighten(#9356dc,35%);
+$color-secondary:#ff79da;
+$color-tertiary:#99e2d0;
+$color-tree_darken: darken(#99e2d0, 25%);
+$color_input:#eaeaea;
+$color_input_darken: darken(#eaeaea,10%);
+$color_icone:#7e7e7e;
+$color_fond_page: #f6f6f6;
+
+                        /***loading***/
+    /***page d'acceuil ouverture***/
+@keyframes fixe{
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+    /***spinner***/
+@keyframes loading{
+    0%{
+        opacity: 1;    
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0;
+        
+    }
+}
+    /***couvert spinner***/
+@mixin couvert_load{
+    font-size:2em;
+    margin:0;
+    color:$color-primary;
+    position:absolute;
+}
+    /***Apparition carte***/
+@keyframes apparition{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} 

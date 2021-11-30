@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang=fr>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+        
+        <title>oh my food</title>
+    </head>
+
+    <body>
+        <div class="loading">
+            <img src="images/logo/ohmyfood.png" alt="logo"/>
+            <div class="I1"><i class="fas fa-utensils"></i></div>
+            <div class="I2"><i class="fas fa-utensils"></i></div>
+            <div class="I3"><i class="fas fa-utensils"></i></div>
+            <div class="I4"><i class="fas fa-utensils"></i></div>
+        </div>
+        <div id="bloc_page">
+            <div class="acceuil">
+                                            <!-- HEADER-->
+                <header>
+                    <h1>oh my food</h1>
+                </header>
+                                            <!--ARTICLE-->
+                <article>
+                    <form class=article_map>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" class="ville" value="Paris, Belleville"/>
+                    </form>
+                    <div class="presentation">
+                        <p><strong>Réservez le menu qui vous convient</strong></p>
+                        <h2>Découvrez des restaurants d'exception, séléctionnés par nos soin.</h2>
+                        <input type="button" class="presentation_btn" value="Explorer nos restaurants"/>
+                    </div>
+                </article>
+                                            <!--NAV-->
+                <nav>
+                    <h2>Fonctionnement</h2>
+                    <div class="nav_choix">
+                        <a href="#restaurant_choice">
+                            <p>1</p>
+                            <div class="nav_icone">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>Choisissez un restaurant</h3>
+                        </a>
+                        <a href="">
+                            <p>2</p>
+                            <div class="nav_icone">
+                                <i class="fas fa-list-ul"></i>
+                            </div>
+                            <h3>Composez votre menu</h3>
+                        </a>
+                        <a href="">
+                            <p>3</p>
+                            <div class="nav_icone">
+                                <i class="fas fa-store"></i>
+                            </div>
+                            <h3>Dégustez au restaurant</h3>
+                        </a>
+                    </div>
+                </nav>
+                                            <!--SECTION-->
+                <section>
+                    <h3 id="restaurant_choice">Restaurants</h3>
+                    <div class="choix_resto">
+                        <div class="restaurant">
+                            <a href="La_palette_du_gout.html">
+                                <figure>
+                                    <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="la palette du goût"/>
+                                    <div class="news">
+                                        <h4>Nouveau</h4>
+                                    </div>
+                                    <figcaption>
+                                        <div class="restaurant_title">
+                                            <p><strong>La palette du goût</strong></p>
+                                            <p>Ménilmontant</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <div class="restaurant_heart">
+                                <button class="heart"><i class="far fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="restaurant">
+                            <a href="La_note_enchantee.html">
+                                <figure>
+                                    <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée"/>
+                                    <div class="news">
+                                        <h4>Nouveau</h4>
+                                    </div>
+                                    <figcaption>
+                                        <div class="restaurant_title">
+                                            <p><strong>La note enchantée</strong></p>
+                                            <p>Charonne</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <div class="restaurant_heart">
+                                <button class="heart"><i class="far fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="restaurant">
+                            <a href="A_la_francaise.html">
+                                <figure>
+                                    <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française"/>
+                                    <figcaption>
+                                        <div class="restaurant_title">
+                                            <p><strong>À la française</strong></p>
+                                            <p>Cité Rouge</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <div class="restaurant_heart">
+                                <button><i class="far fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="restaurant">
+                            <a href="Le_delice_des_sens.html">
+                                <figure>
+                                    <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens"/>
+                                    <figcaption>
+                                        <div class="restaurant_title">
+                                            <p><strong>Le délice des sens</strong></p>
+                                            <p>Folie-Méricourt</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <div class="restaurant_heart">
+                                <button class="heart"><i class="far fa-heart"></i></button>
+                            </div>
+                        </div>       
+                    </div>
+                </section>
+                                                        <!--FOOTER-->
+                <footer>
+                    <h5>ohmyfood</h5>
+                    <a href="">
+                        <i class="fas fa-utensils"></i>
+                        Proposer un restaurant
+                    </a>
+                    <a href="">
+                        <i class="fas fa-hands-helping"> </i>
+                        Devenir partenaire
+                    </a>
+                    <a href="">
+                        <p>Mentions légales</p>
+                    </a>   
+                    <a href="mailto:">Contact</a>       
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
